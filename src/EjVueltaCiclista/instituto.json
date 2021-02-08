@@ -1,0 +1,94 @@
+[
+  {
+    "codId": "378JXE",
+    "numAlumnos": 24,
+    "delegado": {
+      "nombre": "Pepe",
+      "apellidos": "Delgado"
+    },
+    "subdelegados": [
+      {
+        "nombre": "María",
+        "apellidos": "Esteve"
+      },
+      {
+        "nombre": "Laura",
+        "apellidos": "Gil"
+      },
+      {
+        "nombre": "Mario",
+        "apellidos": "Alaska"
+      }
+    ],
+    "asignaturas": [
+      {
+        "asignatura": "DB",
+        "nombre": "Diseño Base",
+        "horasTeoria": 3,
+        "horasPractica": 3,
+        "profesor": {
+          "nombre": "John",
+          "apellidos": "Wick",
+          "titulacion": "Ingeniero informático"
+        }
+      },
+      {
+        "asignatura": "DG",
+        "nombre": "Diseño Gráfico",
+        "horasTeoria": 6,
+        "horasPractica": 4,
+        "profesor": {
+          "nombre": "Peter",
+          "apellidos": "Linkage",
+          "titulacion": "Programador"
+        }
+      }
+    ]
+  },
+  {
+    "codId": "472KFC",
+    "numAlumnos": 18,
+    "delegado": {
+      "nombre": "Manuel",
+      "apellidos": "Guijarro"
+    },
+    "subdelegados": [
+      {
+        "nombre": "Lara",
+        "apellidos": "Martínez"
+      },
+      {
+        "nombre": "Altair",
+        "apellidos": "García"
+      },
+      {
+        "nombre": "Joe",
+        "apellidos": "Black"
+      }
+    ],
+    "asignaturas": [
+      {
+        "asignatura": "SDE",
+        "nombre": "Sistemas y desarrollo empresarial",
+        "horasTeoria": 4,
+        "horasPractica": 2,
+        "profesor": {
+          "nombre": "Gilberto",
+          "apellidos": "Silva",
+          "titulacion": "Bellas Artes"
+        }
+      },
+      {
+        "asignatura": "VO",
+        "nombre": "Visión Óptica",
+        "horasTeoria": 2,
+        "horasPractica": 2,
+        "profesor": {
+          "nombre": "Salomon",
+          "apellidos": "Kane",
+          "titulacion": "Ingeniero Industrial"
+        }
+      }
+    ]
+  }
+]

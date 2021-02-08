@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//EjerHibernate/EjerHibernate Mapping DTD 3.0/EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
+    <class name="EjVueltaCiclista.Equipo" table="Equipo">
+        <!-- Clave primaria (id) -->
+        <id column="id_equipo" name="id_equipo" type="integer"></id>
+        <!-- Resto de atributos (property) -->
+        <property name="nombre"></property>
+        <property name="patrocinador"></property>
+
+        <!-- Relación 1:N con la tabla Ciclista (no se añade como property)-->
+        <list name="ciclistas" cascade="all" inverse="false">
+            <key>
+                <column name="idEquipo"></column>
+            </key>
+            <list-index>
+                <column name="idx"></column>
+            </list-index>
+            <one-to-many class="EjVueltaCiclista.Ciclista"></one-to-many>
+        </list>
+
+    </class>
+</hibernate-mapping>

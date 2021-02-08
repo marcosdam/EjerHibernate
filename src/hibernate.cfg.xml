@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//EjercicioHibernate/EjerHibernate Mapping DTD 3.0/EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- Propiedades a utilizar para la conexión-->
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost/VueltaCiclistaBD</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password"></property>
+        <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+        <property name="hibernate.show_sql">true</property>
+
+        <!-- Clases que a utilizar-->
+        <!-- Mapeo EjerHibernate - Resource (XML)-->
+        <mapping resource="EjVueltaCiclista/Ciclista.hbm.xml"></mapping>
+        <mapping resource="EjVueltaCiclista/Equipo.hbm.xml"></mapping>
+        <mapping resource="EjVueltaCiclista/Palmares.hbm.xml"></mapping>
+        <!-- Mapeo JPA - Class (clase) -->
+        <mapping class="EjVueltaCiclista.Ciclista"></mapping>
+        <mapping class="EjVueltaCiclista.Equipo"></mapping>
+        <mapping class="EjVueltaCiclista.Palmares"></mapping>
+    </session-factory>
+</hibernate-configuration>

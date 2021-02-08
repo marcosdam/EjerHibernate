@@ -1,0 +1,82 @@
+[
+  {
+    "carreras": [
+      {
+        "circuito": "Cheste",
+        "pais": "España",
+        "fecha": "18-12-2018",
+        "podio": {
+          "ganador": "Andrea Dovicioso",
+          "segundo": "Alex Rins",
+          "tercero": "Pol Espargaró"
+        },
+        "tiempo": {
+          "temperatura": 16,
+          "unidadT": "grados centígrados",
+          "cielo": "lluvioso",
+          "anguloViento": 110,
+          "velocidad": 9,
+          "unidadV": "km/h"
+        }
+      },
+      {
+        "circuito": "Sepang",
+        "pais": "Malasia",
+        "fecha": "04-11-2018",
+        "podio": {
+          "ganador": "Marc Márquez",
+          "segundo": "Alex Rins",
+          "tercero": "Johan Darco"
+        },
+        "tiempo": {
+          "temperatura": 19,
+          "unidadT": "grados centígrados",
+          "cielo": "despejado",
+          "anguloViento": 96,
+          "velocidad": 9,
+          "unidadV": "km/h"
+        }
+      }
+    ],
+    "numeroTemporada": 70,
+    "equipos": [
+      {
+        "nombre": "Aprilia",
+        "presupuesto": 132000000,
+        "monedaPresupuesto": "$",
+        "fechaFundacion": "12-05-1879"
+      },
+      {
+        "nombre": "Ducati",
+        "presupuesto": 142000000,
+        "monedaPresupuesto": "$",
+        "fechaFundacion": "12-05-1879"
+      },
+      {
+        "nombre": "Honda",
+        "presupuesto": 162000000,
+        "monedaPresupuesto": "$",
+        "fechaFundacion": "12-05-1879"
+      },
+      {
+        "nombre": "KTM",
+        "presupuesto": 143000000,
+        "monedaPresupuesto": "$",
+        "fechaFundacion": "12-05-1879"
+      },
+      {
+        "nombre": "Suzuki",
+        "presupuesto": 1562000000,
+        "monedaPresupuesto": "$",
+        "fechaFundacion": "12-05-1879"
+      },
+      {
+        "nombre": "Yamaha",
+        "presupuesto": 121000000,
+        "monedaPresupuesto": "$",
+        "fechaFundacion": "12-05-1879"
+      }
+    ],
+    "ganador": "Marc Márquez"
+  }
+]

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//EjerHibernate/EjerHibernate Mapping DTD 3.0/EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
+    <class name="EjVueltaCiclista.Ciclista" table="Ciclista">
+        <!-- Clave primaria (id) -->
+        <id column="dorsal" name="dorsal" type="integer"></id>
+        <!-- Resto de atributos (property) -->
+        <property name="nombre"></property>
+        <property name="apellidos"></property>
+
+        <!-- Relación N:1 con la tabla Equipo    (Muchos a uno (many-to-one))-->
+        <many-to-one name="equipo">
+            <column name="idEquipo"></column>
+        </many-to-one>
+
+        <!-- Relación 1:1 con la tabla Palmares -->
+        <one-to-one name="palmares" cascade="all"></one-to-one>
+    </class>
+</hibernate-mapping>
